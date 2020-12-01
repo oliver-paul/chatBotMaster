@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/overallview"
+        android:title="Overall View"
+        android:icon="@drawable/ic_overallview"/>
+    <item
+        android:id="@+id/statewiseview"
+        android:title="State View"
+        android:icon="@drawable/ic_statewiseview"/>
+<!--    <item-->
+<!--        android:id="@+id/mapview"-->
+<!--        android:title="Map View"-->
+<!--        android:icon="@drawable/ic_mapview" />-->
+
+    <item
+        android:id="@+id/spreadtrends"
+        android:title="Spread Trends"
+        android:icon="@drawable/ic_spreadtrends"/>
+    />
+
+</menu>

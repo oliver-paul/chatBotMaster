@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vmac.chatbotmaster">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_alone40"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Stats"
+            android:theme="@style/NoActionTheme">
+
+        </activity>
+        <activity
+            android:name=".InfoActivity"
+            android:parentActivityName=".Profile_page"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".AuthActivity"
+            android:parentActivityName=".SignupActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionTheme" />
+        <activity
+            android:name=".SignupActivity"
+            android:parentActivityName=".FrontActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionTheme" />
+
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".FrontActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionTheme" />
+        <activity
+            android:name=".FrontActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Profile_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".Profile_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+    </application>
+
+</manifest>

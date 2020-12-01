@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "103206424555",
+    "firebase_url": "https://chatbotmaster-e9441.firebaseio.com",
+    "project_id": "chatbotmaster-e9441",
+    "storage_bucket": "chatbotmaster-e9441.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:103206424555:android:ad777c16d81ee31fb253ae",
+        "android_client_info": {
+          "package_name": "com.company.chatbotmaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "103206424555-7h4c3vne52du49h8h34j2i9k13m27loj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.company.chatbotmaster",
+            "certificate_hash": "0af45782fad4f8bdd68bf968dbcdc5d4f4b40881"
+          }
+        },
+        {
+          "client_id": "103206424555-ja4mr61t3dmoieb1ao2aem62e978kqoc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZwZ8ZeM2oXmr9sfW3WFTgCudNYTPr1S8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "103206424555-ja4mr61t3dmoieb1ao2aem62e978kqoc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

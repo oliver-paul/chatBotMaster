@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">C-Bot</string>
+    <string name="what_s_on_your_mind">Enter your query</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="all_the_data_is_derived_from_https_www_covid19india_org">All the data is derived from : https://www.covid19india.org/</string>
+    <string name="confirmed">Confirmed :</string>
+    <string name="active">Active :</string>
+    <string name="recovered">Recovered :</string>
+    <string name="deceased">Deceased :</string>
+    <string-array name="names">
+        <item>SELECT</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>AndhraPradesh</item>
+        <item>Arunanchal pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Delhi</item>
+        <item>Dadra and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Ladakh</item>
+        <item>Lakshadweep</item>
+        <item>Madhya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>Odisha</item>
+        <item>Punjab</item>
+        <item>Puducherry</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Telangana</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttarakhand</item>
+        <item>West Bengal</item>
+    </string-array>
+
+</resources>

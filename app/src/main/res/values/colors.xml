@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#8dbbcb</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_bubble_self">#62caa6</color>
+    <color name="bg_bubble_watbot">#ecf0f1</color>
+    <color name="black">#000000</color>
+    <color name="confirmed">#673AB7</color>
+    <color name="recovered">#3AB74B</color>
+    <color name="active">#E41010</color>
+    <color name="deceased">#8E948F</color>
+
+    <color name="darkgray">#504C4C</color>
+    <color name="lightgray">#DFDEDE</color>
+    <color name="gray">#A59B9B</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#33B5E5</color>
+    <color name="darkblue">#273C43</color>
+
+    <color name="graylight">#fafafa</color>
+    <color name="starblue">#8DBBCB</color>
+    <color name="endblue">#0bcce6</color>
+
+</resources>

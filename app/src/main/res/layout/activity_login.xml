@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lgn_bck"
+    tools:context="com.example.vmac.chatbotmaster.LoginActivity">
+
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/corbel"
+        android:text="Login"
+        android:onClick="login_function"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifypass" />
+
+    <EditText
+        android:id="@+id/verifypass"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="61dp"
+        android:background="@drawable/input_field"
+        android:digits="0123456789"
+        android:ems="10"
+        android:fontFamily="@font/calibri"
+        android:hint="Password"
+        android:inputType="number"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNo" />
+
+    <EditText
+        android:id="@+id/phoneNo"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:fontFamily="@font/calibri"
+        android:hint="Email Id"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading" />
+
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="347dp"
+        android:backgroundTint="#D8EAF1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backbtn" />
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="55dp"
+        android:fontFamily="@font/ebrimabd"
+        android:text="Hello There!"
+        android:textColor="@color/darkgray"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/logintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_alignTop="@+id/verifyBtn"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="297dp"
+        android:fontFamily="@font/athiti_m"
+        android:text="Login"
+        android:textColor="@color/darkblue"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="@font/corbel"
+        android:text="or"
+        android:textColor="@color/darkgray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyBtn" />
+
+    <Button
+        android:id="@+id/signupBtn"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/logintxt"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/darkblue"
+        android:fontFamily="@font/corbel"
+        android:text="Sign up"
+        android:onClick="signin_function"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity"
+    android:background="@color/colorPrimary">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="INFOMATION:"
+                android:textSize="30sp"
+                >
+
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+
+                android:text="India is a hugely populated country with different cultured people who speak different languages. Bringing all the information through news channels to their convenient time or addressing their queries  face to face also not possible. This app helps them to know all their doubts and updating the information to everyone in a single stretch is easy. It is an academia initiative to support Covid-19 pandemic situation by the young minds and cutting edge technologies. We believe C-Bot will clarify all your doubts concerning Covid-19.
+                          \n\nC-Bot Team Members:\n
+Dr.Mythily Ganesh\n
+Dr.Immanual John Raja\n
+Anand Mohan\n
+Arnab Saha\n
+Bhumireddy Jayakeshav Reddy\n
+Brighton S\n
+Talluri John Emmanuel Raj\n
+Gaius Reji\n
+K.Oliver Paul\n
+Manoj Preetham"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/karunya_logo"
+                    android:layout_centerHorizontal="true"
+                    ></ImageView>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

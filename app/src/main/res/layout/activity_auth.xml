@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/signup_bck"
+    tools:context="com.example.vmac.chatbotmaster.AuthActivity">
+
+    <ImageButton
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#B1DDEC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backbtn" />
+
+    <TextView
+        android:id="@+id/HeaderTxt"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/athiti_b"
+        android:text="Verify your Phone Number."
+        android:textColor="@color/darkblue"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.212"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backbutton"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/phoneNo"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/input_field"
+        android:digits="0123456789"
+        android:ems="10"
+        android:fontFamily="@font/calibri"
+        android:hint="Email Id"
+        android:inputType="text"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sendBtn"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="48dp"
+        android:text="Send"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/darkblue"
+        android:fontFamily="@font/corbel"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/phoneNo"
+        app:layout_constraintTop_toBottomOf="@+id/phoneNo" />
+
+    <EditText
+        android:id="@+id/verifypass"
+        android:layout_width="300dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:background="@drawable/input_field"
+        android:digits="0123456789"
+        android:hint="Enter OTP"
+        android:fontFamily="@font/calibri"
+        android:inputType="number"
+        android:textAlignment="viewStart"
+        android:textColorHint="@color/gray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.439"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sendBtn" />
+
+    <Button
+        android:id="@+id/verifyBtn"
+        android:layout_marginTop="48dp"
+        android:layout_width="162dp"
+        android:layout_height="53dp"
+        android:background="@drawable/button"
+        android:backgroundTint="@color/darkblue"
+        android:fontFamily="@font/corbel"
+        android:text="Verify"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="@+id/verifypass"
+        app:layout_constraintTop_toBottomOf="@+id/verifypass" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

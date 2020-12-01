@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.example.vmac.chatbotmaster.FrontActivity">
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frontpagebuttons"
+        android:fontFamily="@font/bahnschrift"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/frame"
+        app:layout_constraintTop_toBottomOf="@+id/frame" />
+
+    <Button
+        android:id="@+id/signupbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/frontpagebuttons"
+        android:backgroundTint="#FFFFFF"
+        android:fontFamily="@font/bahnschrift"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#1582A8"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/frame"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/loginbtn"
+        app:layout_constraintTop_toBottomOf="@+id/frame" />
+
+    <TextView
+        android:id="@+id/desc2"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/bahnschrift"
+        android:text="C-Bot has you covered. \nLook at statistics, ask for updates, \nstay informed."
+        android:textAlignment="center"
+        android:textColor="@color/darkgray"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="@+id/frame"
+        app:layout_constraintEnd_toEndOf="@+id/frame"
+        app:layout_constraintStart_toStartOf="@+id/frame"
+        app:layout_constraintTop_toBottomOf="@+id/desc1" />
+
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="245dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/bahnschrift"
+        android:text="Need info regarding the Covid-19 outspread ?"
+        android:textAlignment="center"
+        android:textColor="@color/darkgray"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/frame"
+        app:layout_constraintHorizontal_bias="0.533"
+        app:layout_constraintStart_toStartOf="@+id/frame"
+        app:layout_constraintTop_toTopOf="@+id/frame" />
+
+    <ImageView
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbotlogo"
+        app:layout_constraintVertical_bias="0.742"
+        app:srcCompat="@drawable/frame" />
+
+    <ImageView
+        android:id="@+id/cbotlogo"
+        android:layout_width="281dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/cbotlogo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
